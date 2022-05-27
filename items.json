@@ -1,7 +1,7 @@
 {
-    "$schema":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
+    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
     "_meta": {
-        "sources":[
+        "sources": [
             {
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-		"dateLastModified": 1537874753
+        "dateLastModified": 1537874753
     },
     "item": [
         {
@@ -31,40 +31,46 @@
                 "As an action, you speak aloud a single question concerning a specific goal, event, or activity in the room or area you are currently in that occurred within the last 7 days. The DM offers a truthful reply. That reply is based only on visual information available at the time and through your natural abilities that work based on sight, such as darkvision. If you could not have seen the event from where you are standing, the answer is inconclusive.",
                 "Once used, this item can't be used again until the next dawn.",
                 {
-                    "type":"entries",
-                    "name":"Discovering the sec-tacles blueprint.",
+                    "type": "entries",
+                    "name": "Discovering the sec-tacles blueprint.",
                     "entries": [
                         "The formula must be discovered using five pieces of lore related to the item found through {@variantrule Downtime Activity: Research|XGE}."
                     ]
                 },
                 {
-                    "type":"entries",
-                    "name":"Crafting the Sec-Tacles.",
+                    "type": "inset",
+                    "name": "Crafting the sec-tacles.",
                     "entries": [
+                        "Before you can craft the sec-tactles, the formula must be discovered using five pieces of lore related to the item found through {@variantrule Downtime Activity: Research|XGE}.",
                         {
-                            "type":"entries",
-                            "name":"Tools.",
-                            "entries": [
-                                "You must have proficiency in Tinkers Tools or Arcana."
-                            ]
-                        },
-                        {
-                            "type":"entries",
-                            "name":"Materials.",
-                            "entries": [
-                                "2,000 GP and one temporal crystal shard."
-                            ]
-                        },
-                        {
-                            "type":"entries",
-                            "name":"Time.",
-                            "entries": [
-                                "10 workweeks."
+                            "type": "list",
+                            "name": "Requirements",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Tinkers Tools or Arcana."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "2,000 GP and one temporal crystal shard."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "10 workweeks."
+                                    ]
+                                }
                             ]
                         }
                     ]
                 }
-
             ],
             "hasFluffImages": false
         }
