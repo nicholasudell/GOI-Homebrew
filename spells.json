@@ -1,18 +1,6 @@
 {
-    "$schema":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
+    "$schema":"https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/spells/spells.json",
     "_meta": {
-        "sources":[
-            {
-                "abbreviation": "GOI",
-                "json": "GuildOfIcons",
-                "full": "Guild of Icons",
-                "version": "1.0.1",
-                "authors": [
-                    "Nick"
-                ],
-                "url": "https://github.com/Udellgames/goi-homebrew"
-            }
-        ],
         "dateAdded": 1537874753,
 		"dateLastModified": 1653652069
     },
