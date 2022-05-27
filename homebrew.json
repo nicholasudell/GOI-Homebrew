@@ -153,6 +153,314 @@
                 }
             ],
             "hasFluffImages": false
+        },
+        {
+            "name": "Owl",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "rare",
+            "entries": [
+                "A thick pearlescent liquid coats the walls of this bottle, leaving transparent feather-like traces as it drains to the bottom. It smells of earth after rain.",
+                "Using an action to drink this potion grants the drinker the potion's High.",
+                "When the High effect ends, you must make a DC 10 Constitution saving throw to avoid the effects of the potion's Low.",
+                {
+                    "type": "entries",
+                    "name": "High.",
+                    "entries": [
+                        "You gain a flying speed equal to your movement speed until the end of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Low.",
+                    "entries": [
+                        "You have disadvantage on all Strength checks saving throws for one day. Your bones feel brittle - as if they are hollow.",
+                        "The effects of this potion's Low can be ended early through the spells {@spell Lesser Restoration}, {@spell Greater Restoration}, {@spell Heal}, or {@spell Wish}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Crafting Owl.",
+                    "entries": [
+                        "Crafting one bottle of Owl requires",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Alchemist's Supplies."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "1,000 GP of alchemical ingredients and the tail feather of a {@creature Roc|MM}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "1 workweek."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Spark",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "rare",
+            "entries": [
+                "A silver powder that crackles with sparks of electricity that bounce off the glass container. The bottle smells faintly of ozone and the powder tingles on the tongue.",
+                "Using an action to drink this potion grants the drinker the potion's High.",
+                "When the High effect ends, you must make a DC 12 Constitution saving throw to avoid the effects of the potion's Low.",
+                {
+                    "type": "entries",
+                    "name": "High.",
+                    "entries": [
+                        "You gain resistance to Lightning damage and your movement speed is increased by 10 ft. for one hour."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Low.",
+                    "entries": [
+                        "Your movement speed is halved for one day. Your skin prickles with static electricity.",
+                        "The effects of this potion's Low can be ended early through the spells {@spell Lesser Restoration}, {@spell Greater Restoration}, {@spell Heal}, or {@spell Wish}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Crafting Spark.",
+                    "entries": [
+                        "Crafting one bottle of Spark requires",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Alchemist's Supplies."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "1,000 GP of alchemical ingredients and 4 oz. of powdered dragon horn taken from a {@creature young blue dragon|MM}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "1 workweek."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Berserk",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "very rare",
+            "entries": [
+                "This appears to be a bottle of blood, but holding it, you can feel a faint vibration emanating from the liquid inside. The smell of it is iron and ichor and hatred.",
+                "Using an action to drink this potion grants the drinker the potion's High.",
+                "When the High effect ends, you must make a DC 15 Wisdom saving throw to avoid the effects of the potion's Low.",
+                {
+                    "type": "entries",
+                    "name": "High.",
+                    "entries": [
+                        "You gain an extra attack each turn for one minute.",
+                        "At the start of each of your turns while affected by the potion, you must move to the nearest creature and use your action to attack it if you can. You may make a DC 10 Wisdom saving throw to resist this."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Low.",
+                    "entries": [
+                        "You have disadvantage on Charisma and Wisdom checks and saving throws for one week. You feel rash, angry, and you struggle to put your feelings into words.",
+                        "The effects of this potion's Low can be ended early through the spells {@spell Greater Restoration}, {@spell Heal}, or {@spell Wish}."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Crafting Berserk.",
+                    "entries": [
+                        "Crafting one bottle of Berserk requires",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Alchemist's Supplies."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "10,000 GP of alchemical ingredients and 3 oz. of the dried and powdered amygdala of {@creature the angry|MTF}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "10 workweeks."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Brainbright",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "rare",
+            "entries": [
+                "A lightning blue liquid sloshes in this bottle. It fizzes gently when you move it and smells strongly of citrus.",
+                "Using an action to drink this potion grants the drinker the potion's High. When the High effect ends, you must make a DC 12 Constitution saving throw to avoid the effects of the potion's Low.",
+                {
+                    "type": "entries",
+                    "name": "High.",
+                    "entries": [
+                        "Your Intelligence score is increased by 4 for 1 hour. It can exceed 20 for the duration."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Low.",
+                    "entries": [
+                        "Currently unknown."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Crafting Brainbright.",
+                    "entries": [
+                        "Crafting one bottle of Brainbright requires",
+                        {
+                            "type": "list",
+                            "name": "Requirements",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Alchemist's Supplies."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "1,000 GP of alchemical ingredients and a quart of blood from a {{@creature Mindflayer}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "1 workweek."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Pill of Greater Restoration",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "very rare",
+            "entries": [
+                "A small, circular, white pill with “EAT ME” carved into it.",
+                "Using an action to swallow this potion casts {@spell Greater Restoration} on the consumer.",
+                {
+                    "type": "inset",
+                    "name": "Crafting Brainbright.",
+                    "entries": [
+                        "Crafting one Pill of Greater Restoration requires",
+                        {
+                            "type": "list",
+                            "name": "Requirements",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Tools.",
+                                    "entries": [
+                                        "You must have proficiency in Alchemist's Supplies."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Materials.",
+                                    "entries": [
+                                        "10,000 GP of alchemical ingredients and 10 lb. of macerated bone from a {@creature Dire Troll|MPMM}."
+                                    ]
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Time.",
+                                    "entries": [
+                                        "10 workweeks."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "hasFluffImages": false
+        },
+        {
+            "name": "Potion of Prowess",
+            "source": "GuildOfIcons",
+            "srd": false,
+            "type": "P",
+            "tier": "minor",
+            "rarity": "very rare",
+            "entries": [
+                "Drinking this potion gives you a temporary level up. For the next minute, you have access to whatever features, spells, and spell slots the next level in your class presents you, if there are any.",
+                "Your hit-point maximum, hit dice, ability scores, and feats are unaffected."
+            ],
+            "hasFluffImages": false
         }
     ]
 }
