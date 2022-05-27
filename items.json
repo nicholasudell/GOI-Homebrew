@@ -6,15 +6,15 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.1",
+                "version": "1.0.2",
                 "authors": [
                     "Nick"
                 ],
-                "url": "https://github.com/Udellgames/goi-homebrew"
+                "url": "https://raw.githubusercontent.com/Udellgames/GOI-Homebrew/main/items.json"
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1653652069
+        "dateLastModified": 1653652396
     },
     "item": [
         {
@@ -30,13 +30,6 @@
                 "These glasses contain lenses cut from a temporal crystal that telepathically senses the wearer's wants.",
                 "As an action, you speak aloud a single question concerning a specific goal, event, or activity in the room or area you are currently in that occurred within the last 7 days. The DM offers a truthful reply. That reply is based only on visual information available at the time and through your natural abilities that work based on sight, such as darkvision. If you could not have seen the event from where you are standing, the answer is inconclusive.",
                 "Once used, this item can't be used again until the next dawn.",
-                {
-                    "type": "entries",
-                    "name": "Discovering the sec-tacles blueprint.",
-                    "entries": [
-                        "The formula must be discovered using five pieces of lore related to the item found through {@variantrule Downtime Activity: Research|XGE}."
-                    ]
-                },
                 {
                     "type": "inset",
                     "name": "Crafting the sec-tacles.",
