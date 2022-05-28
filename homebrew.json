@@ -923,5 +923,1030 @@
                 }
             ]
         }
+    ],
+    "variantrule":[
+        {
+            "name":"Identification",
+            "source":"GuildOfIcons",
+            "ruleType":"VO",
+            "type":"section",
+            "entries":[
+                "Identifying magical properties is no easy task, but with dilligent effort - and a little experimentation - any mortal may discern the ineffable.",
+                "When you touch a magical item, you immediately know it's magical. There's a taste at the back of your mouth like copper, or blood, and your teeth tingle. You know not the properties, but you know for sure it's magical.",
+                {
+                    "type":"entries",
+                    "name":"Identifying magic items",
+                    "entries":[
+                        "When you find a magical item, you immediately know that it's magic. The hair on the back of your neck stands on end and your skin tingles when you touch it.",
+                        "The {@spell Identify} spell reveals all of its properties (except curses) as per usual.",
+                        "As part of a short rest, you may spend the time investigating the item, perhaps examining minute marks and runes, combined with an Intelligence (History, Religion, or Arcana) check to learn information about it.",
+                        "On a successful check, you learn the broad properties of it (e.g. that it is a folding boat, and that the command word is \"exigent\"), but you do not learn the item's full properties (e.g. remaining charges, any spells affecting it, or what spells created it).",
+                        "Alternatively, you can experiment by using the item in the way you expect it to be used. If you get it right, then you learn that property! An example might be attempting to attune to a sword (you don't necessarily need to know that you have to attune to something to try) and if you feel an innate bond to it afterwards then, sure enough, it needed attunement. You could instead try using a wand on somebody to see what it does, or notice how the new axe you picked up seems to bite through armour a lot better than your last one..."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Identifying potions",
+                    "entries":[
+                        "When you find a potion, the DM will describe it. Make notes! Each potion is unique in appearance and behaviour, although it is worth noting that some potions could be poisons disguised as other potions.",
+                        "One exception to this is the {@item Potion of Healing}, which is so common that everybody knows what they look like.",
+                        "You can determine the properties of any potion by drinking it in full, there are no half-chugs here!",
+                        "Alternatively, you can spend a short rest examining it with alchemist's tools and an Intelligence (Alchemy Tools) check to see if you can identify it through its interactions with other chemicals."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Identifying spell scrolls",
+                    "entries":[
+                        "You instantly determine the spell inscribed on each spell scroll you find."
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"Inspiration",
+            "source":"GuildOfIcons",
+            "ruleType":"VO",
+            "type":"section",
+            "entries":[
+                "Inspiration can be used to re-roll one a failed ability check, attack roll, or saving throw. It can be used after the result is declared, and even after the DM has told that you it fails.",
+                "When you take a long rest, you lose any inspiration you had."
+            ]
+        },
+        {
+            "name":"Guild Maintenance",
+            "source":"GuildOfIcons",
+            "ruleType":"VO",
+            "type":"section",
+            "entries":[
+                "The Guild Of Icons as it currently stands loses money at 10 gp per day. This money is automatically subtracted from the treasury (handled by your clerk) at the end of every workweek of downtime.",
+                "This price pays for standard maintenance and employment fees for 5 skilled hirelings and 3 untrained hirelings. The hireling makeup can be changed, but by default is:",
+                {
+                    "type":"list",
+                    "name":"Skilled Hirelings",
+                    "items":[
+                        "Two mercenaries, who perform security duty.",
+                        "A trainer, who offers tool and weapon training.",
+                        "Two diplomats, who secure new contracts."
+                    ]
+                },
+                {
+                    "type":"list",
+                    "name":"Unskilled Hirelings",
+                    "items":[
+                        "A clerk, who manages the guild's accounts.",
+                        "Two housekeepers, who clean the guild premises."
+                    ]
+                },
+                "You can add more hirelings at the usual cost for hirelings. You cannot reduce the number of hirelings below this level.",
+                "Note that none of this daily loss includes fees for adventurers, those come out of the jobs they take.",
+                "Working for the guild opens up a special downtime activity: Guild Work. Guild Work is spent in workweeks as usual. At the end of downtime, tally the total number of workweeks spent on Guild Work by all players, multiply by 5, and let the DM know. They'll then determine the guild's profit or losses."
+            ]
+        }
+    ],
+    "table": [
+        {
+            "caption": "Blacksmith Stock",
+            "colLabels": [
+                "Name",
+                "Cost (Cheap)",
+                "Cost (Normal)",
+                "Cost (Expensive)",
+                "Limited Stock",
+                "Rural Locale",
+                "Urban Locale",
+                "Premium Locale"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center"
+            ],
+            "rows": [
+                [
+                    "{@i Light Armour}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Studded Leather Armor|phb}",
+                        "33 gp",
+                        "45 gp",
+                        "68 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Medium Armour}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Chain Shirt|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Scale Mail|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Breastplate|phb}",
+                        "300 gp",
+                        "400 gp",
+                        "600 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Half Plate Armor|phb}",
+                        "562 gp",
+                        "750 gp",
+                        "1125 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Heavy Armour}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Ring Mail|phb}",
+                        "22 gp",
+                        "30 gp",
+                        "45 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Chain Mail|phb}",
+                        "56 gp",
+                        "75 gp",
+                        "113 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Splint Armor|phb}",
+                        "150 gp",
+                        "200 gp",
+                        "300 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Plate Armor|phb}",
+                        "1125 gp",
+                        "1500 gp",
+                        "2250 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Shield}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Shield|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Simple Melee Weapons}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Dagger|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Handaxe|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Javelin|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Light Hammer|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Mace|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Sickle|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Spear|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Martial Melee Weapons}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Battleaxe|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Flail|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Glaive|phb}",
+                        "15 gp",
+                        "20 gp",
+                        "30 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Greataxe|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Greatsword|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Halberd|phb}",
+                        "15 gp",
+                        "20 gp",
+                        "30 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Lance|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Longsword|phb}",
+                        "11 gp",
+                        "15 gp",
+                        "22 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Maul|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Morningstar|phb}",
+                        "15 gp",
+                        "20 gp",
+                        "30 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Pike|phb}",
+                        "11 gp",
+                        "15 gp",
+                        "22 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Rapier|phb}",
+                        "18 gp",
+                        "25 gp",
+                        "38 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Scimitar|phb}",
+                        "18 gp",
+                        "25 gp",
+                        "38 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Shortsword|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Trident|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item War Pick|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Warhammer|phb}",
+                        "11 gp",
+                        "15 gp",
+                        "22 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Adventuring Gear}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Ball Bearings (bag of 1,000)|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Bell|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Block and Tackle|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Chain (10 feet)|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Crowbar|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Grappling Hook|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Hammer|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Sledgehammer|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Hunting Trap|phb}",
+                        "5 gp",
+                        "3 gp",
+                        "8 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Lamp|phb}",
+                        "3 sp",
+                        "5 sp",
+                        "8 sp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Bullseye Lantern|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Hooded Lantern|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Lock|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Manacles|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Steel Mirror|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Miner's Pick|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Piton|phb}",
+                        "3 cp",
+                        "5 cp",
+                        "8 cp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Iron Pot|phb}",
+                        "1 gp",
+                        "2 gp",
+                        "3 gp",
+                        "",
+                        "X",
+                        "X",
+                        ""
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Iron Spikes (10)|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Whetstone|phb}",
+                        "1 cp",
+                        "1 cp",
+                        "2 cp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Artisan's Tools}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Carpenter's Tools|phb}",
+                        "6 gp",
+                        "8 gp",
+                        "12 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Mason's Tools|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Smith's Tools|phb}",
+                        "15 gp",
+                        "20 gp",
+                        "30 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Tinker's Tools|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Musical Instruments}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Horn|phb}",
+                        "2 gp",
+                        "3 gp",
+                        "5 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                }
+            ],
+            "name": "Shopping - Blacksmith",
+            "source": "GuildOfIcons"
+        }
     ]
 }
