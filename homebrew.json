@@ -461,6 +461,467 @@
                 "Your hit-point maximum, hit dice, ability scores, and feats are unaffected."
             ],
             "hasFluffImages": false
+        },
+        {
+            "name": "Shimmerscale Breastplate",
+            "source": "GuildOfIcons",
+            "type": "MA",
+            "rarity": "very rare",
+            "reqAttune": "by a cleric or paladin",
+            "reqAttuneTags": [
+                {
+                    "class": "cleric"
+                },
+                {
+                    "class": "paladin"
+                }
+            ],
+            "tier": "major",
+            "weight": 20,
+            "ac": 14,
+            "armor": true,
+            "stealth": true,
+            "attachedSpells": [
+                "greater restoration"
+            ],
+            "entries": [
+                "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of shimmering beech wood, much like the scales of a fish. The lining is wolf's fur. The scales seem to shift in the light as you move, leaving a mesmerising pattern.",
+                {
+                    "type":"entries",
+                    "name":"Evasion.",
+                    "entries":[
+                        "For every 10ft you have moved this turn, your AC increases by 1. This effect lasts until the start of your next turn.",
+                        "For movement to count, it must cost you some of your movement speed."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Soulbound.",
+                    "entries":[
+                        "Once this item has been attuned to, the attunement cannot be ended unless the attuned creature is willing or dead. While attuned to the item, each time the attuned creature gains a level in the Cleric or Paladin classes, they may choose one from the following properties. This item gains the chosen property. No property can be chosen more than once.",
+                        "All gained properties are lost if the creature becomes unattuned, unless it is the next creature to attune to the item.",
+                        {
+                            "type":"list",
+                            "items":[
+                                {
+                                    "type":"item",
+                                    "name":"Sheep in Wolf's Clothing.",
+                                    "entries":[
+                                        "You have advantage on Charisma checks made to persuade or deceive, provided you are telling the truth."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Scales of Justice.",
+                                    "entries":[
+                                        "As a reaction when you are hit with a melee weapon attack that deals damage to you, if the total attack roll was even, you take half the damage instead. Your attacker takes half as well.",
+                                        "You may use this feature a number of times equal to your proficiency bonus and regain all spent uses at dawn."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Fangs of Chaos.",
+                                    "entries":[
+                                        "When you hit a target with a melee weapon attack and the total attack roll was odd, you may use a bonus action to swap places with any creature within 60 ft.",
+                                        "You may use this feature a number of times equal to your proficiency bonus and regain all spent uses at dawn."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Delilah's Restoration.",
+                                    "entries":[
+                                        "You can use an action to cast the spell {@spell Greater Restoration} without material components. Doing so causes you to gain one point of exhaustion and removes all of your hair.",
+                                        "The hair grows back over the course of the week, once your hair grows back you can re-use this action. Either way, this ability cannot be used more than once per day."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+
+            ]
+        },
+        {
+            "name": "Terpsichorean Girdle",
+            "source": "GuildOfIcons",
+            "wondrous": true,
+            "rarity": "very rare",
+            "reqAttune": "by a rogue or bard",
+            "reqAttuneTags": [
+                {
+                    "class": "rogue"
+                },
+                {
+                    "class": "bard"
+                }
+            ],
+            "tier": "major",
+            "entries": [
+                "A belt of twisted strands of leather in a light and complex pattern.",
+                {
+                    "type":"entries",
+                    "name":"Dancer's Grace.",
+                    "entries":[
+                        "All attacks of opportunity against you are made at disadvantage."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Soulbound.",
+                    "entries":[
+                        "Once this item has been attuned to, the attunement cannot be ended unless the attuned creature is willing or dead. While attuned to the item, each time the attuned creature gains a level in the Rogue or Bard classes, they may choose one from the following properties. This item gains the chosen property. No property can be chosen more than once.",
+                        "All gained properties are lost if the creature becomes unattuned, unless it is the next creature to attune to the item.",
+                        {
+                            "type":"list",
+                            "items":[
+                                {
+                                    "type":"item",
+                                    "name":"Sprightly Leap.",
+                                    "entries":[
+                                        "Once per turn, you can spend 5 ft. of movement to jump up to 15 ft. in a straight line."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Chaos Tango.",
+                                    "entries":[
+                                        "When you roll for initiative, you may immediately move up to half your speed without provoking opportunity attacks."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Mesmeric Motion.",
+                                    "entries":[
+                                        "If you dance for 10 minutes in a mesmeric fashion, all who see the dance must make a Wisdom save, DC of 10 + your Charisma modifier, or be {@condition Charmed} by you for 1 hour.",
+                                        "The effect ends early for any target that takes damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.",
+                                        "Creatures that spend the full hour charmed by you forget about you and up to five creatures of your choice when the effect ends, if you so choose. They do not notice that they have forgotten you."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Tap Out.",
+                                    "entries":[
+                                        "You can use a bonus action to grapple a creature and move it without causing attacks of opportunity on yourself or reducing your movement speed. If the creature is unwilling, make a standard grapple check."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lon Lon Glaive",
+            "source": "GuildOfIcons",
+            "type": "M",
+            "weaponCategory": "martial",
+            "property": [
+                "H",
+                "R",
+                "2H"
+            ],
+            "dmg1": "1d10",
+            "dmgType": "S",
+            "weapon": true,
+            "rarity": "very rare",
+            "reqAttune": "by a warlock or fighter",
+            "reqAttuneTags": [
+                {
+                    "class": "warlock"
+                },
+                {
+                    "class": "fighter"
+                }
+            ],
+            "tier": "major",
+            "entries": [
+                "This glaive is built on an extra-long, extra-strong haft and yet, somehow, it is no heavier or more difficult to wield than its ordinary counterpart.",
+                {
+                    "type":"entries",
+                    "name":"Double-Reach.",
+                    "entries":[
+                        "This weapon has a reach of 15 ft. instead of the usual 10 ft."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Soulbound.",
+                    "entries":[
+                        "Once this item has been attuned to, the attunement cannot be ended unless the attuned creature is willing or dead. While attuned to the item, each time the attuned creature gains a level in the Warlock or Fighter classes, they may choose one from the following properties. This item gains the chosen property. No property can be chosen more than once.",
+                        "All gained properties are lost if the creature becomes unattuned, unless it is the next creature to attune to the item.",
+                        {
+                            "type":"list",
+                            "items":[
+                                {
+                                    "type":"item",
+                                    "name":"Cleave.",
+                                    "entries":[
+                                        "When you reduce an enemy to zero hit points with a melee weapon attack with the glaive on your turn, you may apply any remaining damage to another enemy within your reach."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"The Lon Gest Glaive.",
+                                    "entries":[
+                                        "As an action you extend the glaive beyond its normal limits. Make a melee weapon attack against every creature in a 30 ft. line originating from you. You may use this feature a number of times equal to your profiency bonus and regain all spent uses at dawn."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"15 Foot Pole.",
+                                    "entries":[
+                                        "You may vault with the Lon Lon Glaive, adding either 15 ft. to your horizontal jump or 10 ft. to your high jump, provided you move at least 10 ft. in a straight line beforehand.",
+                                        "Each foot moved costs one foot of movement."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"All Around Sight.",
+                                    "entries":[
+                                        "As an action you can see through the Lon Lon Glaive's blade. You can see in all directions at once. This effect lasts for one minute. During this minute you cannot be surprised, however you cannot avert your eyes while this is active. You can end the effect whenever you want. This feature can be used once per short rest."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Fractal Armament",
+            "source": "GuildOfIcons",
+            "type": "M",
+            "weaponCategory": "martial",
+            "dmg1": "1d8",
+            "dmgType": "S",
+            "weapon": true,
+            "rarity": "very rare",
+            "reqAttune": "by a Bard or Ranger",
+            "reqAttuneTags": [
+                {
+                    "class": "bard"
+                },
+                {
+                    "class": "ranger"
+                }
+            ],
+            "tier": "major",
+            "entries": [
+                "A crystal of bismuth constantly in flux between myriad weapon forms.",
+                {
+                    "type":"entries",
+                    "name":"Endless Possibility.",
+                    "entries":[
+                        "Your initiative roll (ignoring modifiers) determines the type of weapon this blade becomes until the next time you roll initiative. You are always proficient in this weapon’s form and it does not require ammunition, although you must obey the Loading property if it has one.",
+                        "If any spells or features require you to wield a specific weapon type, you may use them with the Fractal Armament, no matter what type of weapon it is.",
+                        {
+                            "type":"table",
+                            "caption": "Fractal Armament Forms",
+                            "colLabels": [
+                                "{@dice d20}",
+                                "Weapon"
+                            ],
+                            "colStyles": [
+                                "col-1 text-center",
+                                "col-11"
+                            ],
+                            "rows": [
+                                [
+                                    "01",
+                                    "{@item Club|PHB}"
+                                ],
+                                [
+                                    "02",
+                                    "{@item Dagger|PHB}"
+                                ],
+                                [
+                                    "03",
+                                    "{@item Handaxe|PHB}"
+                                ],
+                                [
+                                    "04",
+                                    "{@item Javelin|PHB}"
+                                ],
+                                [
+                                    "05",
+                                    "{@item Mace|PHB}"
+                                ],
+                                [
+                                    "06",
+                                    "{@item Quarterstaff|PHB}"
+                                ],
+                                [
+                                    "07",
+                                    "{@item Trident|PHB}"
+                                ],
+                                [
+                                    "08",
+                                    "{@item Shortbow|PHB}"
+                                ],
+                                [
+                                    "09",
+                                    "{@item Battleaxe|PHB}"
+                                ],
+                                [
+                                    "10",
+                                    "{@item Rapier|PHB}"
+                                ],
+                                [
+                                    "11",
+                                    "{@item Warhammer|PHB}"
+                                ],
+                                [
+                                    "12",
+                                    "{@item Morningstar|PHB}"
+                                ],
+                                [
+                                    "13",
+                                    "{@item Longsword|PHB}"
+                                ],
+                                [
+                                    "14",
+                                    "{@item Halberd|PHB}"
+                                ],
+                                [
+                                    "15",
+                                    "{@item Glaive|PHB}"
+                                ],
+                                [
+                                    "16",
+                                    "{@item Greatsword|PHB}"
+                                ],
+                                [
+                                    "17",
+                                    "{@item Maul|PHB}"
+                                ],
+                                [
+                                    "18",
+                                    "{@item Greataxe|PHB}"
+                                ],
+                                [
+                                    "19",
+                                    "{@item Lance|PHB}"
+                                ],
+                                [
+                                    "20",
+                                    "{@item Vorpal Longsword|DMG}"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Soulbound.",
+                    "entries":[
+                        "Once this item has been attuned to, the attunement cannot be ended unless the attuned creature is willing or dead. While attuned to the item, each time the attuned creature gains a level in the Bard or Ranger classes, they may choose one from the following properties. This item gains the chosen property. No property can be chosen more than once.",
+                        "All gained properties are lost if the creature becomes unattuned, unless it is the next creature to attune to the item.",
+                        {
+                            "type":"list",
+                            "items":[
+                                {
+                                    "type":"item",
+                                    "name":"Enhanced Armoury.",
+                                    "entries":[
+                                        "When you roll a 20 for your initiative roll, instead of a Vorpal blade, you may choose to roll 2 D20s and have both weapons rolled (extra 20s are Vorpal blades). The weapons gain the light property if they did not already have it and lose the two handed or heavy properties."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"The Dead God's Favour",
+                                    "entries":[
+                                        "When you kill a humanoid with this weapon, your next attack roll is made with advantage."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Flashing Trick.",
+                                    "entries":[
+                                        "As a reaction, taken when a creature attacks an ally that you can see, you may spend one of your Bardic Inspiration die to attempt to distract the attacker. Add the number rolled for your Bardic Inspiration die to the target's AC until the attack is resolved."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Gaze Into Infinity.",
+                                    "entries":[
+                                        "Once per long rest, when you roll to determine the form of your Fractal Armament, you may re roll one of the D20s once."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dionysian Brooch",
+            "source": "GuildOfIcons",
+            "wondrous": true,
+            "rarity": "very rare",
+            "reqAttune": "by a rogue or sorcerer",
+            "reqAttuneTags": [
+                {
+                    "class": "rogue"
+                },
+                {
+                    "class": "sorcerer"
+                }
+            ],
+            "tier": "major",
+            "entries": [
+                "A large claret ruby ensconced in delicate silver filigree. It smells sweetly of wine.",
+                {
+                    "type":"entries",
+                    "name":"Inured To Poison.",
+                    "entries":[
+                        "You can still be {@condition Poisoned}, but do not suffer the effects of the {@condition Poisoned} condition or any effects of ingested poisons.",
+                        "This means you do not gain the explicit disadvantage imposed by the {@condition Poisoned} condition, or any effects imposed by ingested poisons. You do still feel any effects beyond the {@condition Poisoned} condition from poisons that are not ingested, such as the knock out effect of Drow Poison tipped blades."
+                    ]
+                },
+                {
+                    "type":"entries",
+                    "name":"Soulbound.",
+                    "entries":[
+                        "Once this item has been attuned to, the attunement cannot be ended unless the attuned creature is willing or dead. While attuned to the item, each time the attuned creature gains a level in the Rogue or Sorcerer classes, they may choose one from the following properties. This item gains the chosen property. No property can be chosen more than once.",
+                        "All gained properties are lost if the creature becomes unattuned, unless it is the next creature to attune to the item.",
+                        {
+                            "type":"list",
+                            "items":[
+                                {
+                                    "type":"item",
+                                    "name":"Prismatic Shield.",
+                                    "entries":[
+                                        "As a reaction, a shimmering crystalline shield extends from the brooch, converting a critical hit into a normal hit. You may use this feature a number of times equal to your proficiency bonus, recovering all spent uses at dawn."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Double Vision.",
+                                    "entries":[
+                                        "As a reaction, when you become {@condition Poisoned} condition, you may use the inebrious effects to create a mirror image of yourself next to you. While you have this mirror image, you gain the benefits of the {@spell Mirror Image} spell with only one copy. ",
+                                        "When you are no longer {@condition Poisoned} or an attack destroys the image, the image disappears. You may use this feature a number of times equal to your Proficiency Bonus, recovering all spent uses at dawn."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Mesmeric Motion.",
+                                    "entries":[
+                                        "If you were {@condition Poisoned} on the previous day, the crystal fills with a single dose of poison at dawn. The poison is an ingested poison that has the same effects as one of the poisons you were poisoned with. The brooch can be unstoppered and drunk or the contents can be laced in food or drink as an action."
+                                    ]
+                                },
+                                {
+                                    "type":"item",
+                                    "name":"Sharing Is Caring.",
+                                    "entries":[
+                                        "While {@condition Poisoned}, you can use an action to spew a copy of the poison affecting you onto another creature. It acts as an inhaled poison for the purposes of determining whether a creature can be affected by it. Using this effect removes the poison from your system and you are no longer {@condition Poisoned}."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
