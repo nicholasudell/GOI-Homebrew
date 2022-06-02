@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.6",
+                "version": "1.0.7",
                 "authors": [
                     "Nick"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1653777440
+        "dateLastModified": 1654200317
     },
     "spell": [
 		{
@@ -1946,6 +1946,637 @@
                 }
             ],
             "name": "Shopping - Blacksmith",
+            "source": "GuildOfIcons"
+        },
+        {
+            "caption": "Fletcher/Bowyer Stock",
+            "colLabels": [
+                "Name",
+                "Cost (Cheap)",
+                "Cost (Normal)",
+                "Cost (Expensive)",
+                "Limited Stock",
+                "Rural Locale",
+                "Urban Locale",
+                "Premium Locale"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center"
+            ],
+            "rows": [
+                [
+                    "{@i Simple Ranged Weapons}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Light Crossbow|phb}",
+                        "18 gp",
+                        "25 gp",
+                        "38 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Shortbow|phb}",
+                        "18 gp",
+                        "25 gp",
+                        "38 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Martial Ranged Weapons}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Hand Crossbow|phb}",
+                        "56 gp",
+                        "75 gp",
+                        "113 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Heavy Crossbow|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Longbow|phb}",
+                        "38 gp",
+                        "50 gp",
+                        "75 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Adventuring Gear}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Arrows (20)|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Crossbow Bolts (20)|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Crossbow Bolt Case|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Quiver|phb}",
+                        "7 sp",
+                        "1 gp",
+                        "2 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                }
+            ],
+            "name": "Shopping - Fletcher/Bowyer",
+            "source": "GuildOfIcons"
+        },
+        {
+            "caption": "Leatherworker Stock",
+            "colLabels": [
+                "Name",
+                "Cost (Cheap)",
+                "Cost (Normal)",
+                "Cost (Expensive)",
+                "Limited Stock",
+                "Rural Locale",
+                "Urban Locale",
+                "Premium Locale"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center"
+            ],
+            "rows": [
+                [
+                    "{@i Light Armour}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Leather Armor|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Studded Leather Armor|phb}",
+                        "33 gp",
+                        "45 gp",
+                        "68 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Medium Armour}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Hide Armor|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Shield}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Shield|phb}",
+                        "7 gp",
+                        "10 gp",
+                        "15 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Simple Ranged Weapons}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Sling|phb}",
+                        "7 cp",
+                        "1 sp",
+                        "2 sp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Adventuring Gear}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Waterskin|phb}",
+                        "1 sp",
+                        "2 sp",
+                        "3 sp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Artisan's Tools}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Cobbler's Tools|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Leatherworker's Tools|phb}",
+                        "3 gp",
+                        "5 gp",
+                        "8 gp",
+                        "X",
+                        "X",
+                        "X",
+                        "X"
+                    ]
+                },
+                [
+                    "{@i Musical Instruments}",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Bagpipes|phb}",
+                        "22 gp",
+                        "30 gp",
+                        "45 gp",
+                        "",
+                        "",
+                        "",
+                        "X"
+                    ]
+                },
+                {
+                    "type": "row",
+                    "style": "row-indent-first",
+                    "row": [
+                        "{@item Drum|phb}",
+                        "4 gp",
+                        "6 gp",
+                        "9 gp",
+                        "",
+                        "",
+                        "X",
+                        "X"
+                    ]
+                }
+            ],
+            "name": "Shopping - Leatherworker",
+            "source": "GuildOfIcons"
+        },
+        {
+            "caption": "Temple/Faith Supplies Stock",
+            "colLabels": [
+                "Name",
+                "Cost (Cheap)",
+                "Cost (Normal)",
+                "Cost (Expensive)",
+                "Limited Stock",
+                "Rural Locale",
+                "Urban Locale",
+                "Premium Locale"
+            ],
+            "colStyles": [
+                "col-5",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center"
+            ],
+            "rows": [
+                ["{@i Adventuring Gear}","","","","","","",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Alms Box|phb}","3 gp","5 gp","8 gp","","O","O","O"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Bell|phb}","7 sp","1 gp","2 gp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Blanket|phb}","3 sp","5 sp","8 sp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Book|phb}","18 gp","25 gp","38 gp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Candle|phb}","1 cp","1 cp","2 cp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Map or Scroll Case|phb}","7 sp","1 gp","2 gp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Chalk (1 piece)|phb}","1 cp","1 cp","2 cp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Flask|phb}","1 cp","2 cp","3 cp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Healer's Kit|phb}","3 gp","5 gp","8 gp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Holy Symbol|phb}","3 gp","5 gp","8 gp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Holy Water (flask)|phb}","18 gp","25 gp","38 gp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Incense (1 block)|phb}","1 cp","1 cp","2 cp","","O","O","O"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Ink (1-ounce bottle)|phb}","7 gp","10 gp","15 gp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Ink Pen|phb}","2 gp","3 gp","5 gp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Lamp|phb}","3 sp","5 sp","8 sp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Hooded Lantern|phb}","3 gp","5 gp","8 gp","","","","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Oil (Flask)|phb}","7 cp","1 sp","2 sp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Paper (one sheet)|phb}","1 sp","2 sp","3 sp","","","","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Parchment (one sheet)|phb}","7 cp","1 sp","2 sp","","","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Perfume (vial)|phb}","3 gp","5 gp","8 gp","","","","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Potion of Healing|dmg}","38 cp","50 gp","75 gp","","","","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Rations (1 day)|phb}","3 sp","5 sp","8 sp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Torch|phb}","1 cp","1 cp","2 cp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Vial|phb}","7 sp","1 gp","2 gp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Waterskin|phb}","1 sp","2 sp","3 cp","X","X","X","X"]
+                },
+                ["{@i Artisan's Tools}","","","","","","",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Calligrapher's Supplies|phb}","7 gp","10 gp","15 gp","","","O","O"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Herbalism Kit|phb}","3 gp","5 gp","8 gp","","","X","X"]
+                },
+                ["{@i Musical Instruments}","","","","","","",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Flute|phb}","1 gp","2 gp","3 gp","","","","O"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Lyre|phb}","22 gp","30 gp","45 gp","","","","O"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@item Horn|phb}","2 gp","3 gp","5 gp","","","","O"]
+                },
+                ["{@i Spellcasting Services}","","","","","","",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Cure Wounds|phb|Cure Wounds (lvl 1)}","7 gp","10 gp","15 gp","X","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Gentle Repose|phb|Gentle Repose (lvl 2)}","38 gp","50 gp","75 gp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Lesser Restoration|phb|Lesser Restoration (lvl 2)}","38 gp","50 gp","75 gp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Remove Curse|phb|Remove Curse (lvl 3)}","75 gp","100 gp","150 gp","","X","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Revivify|phb|Revivify (lvl 3)}","375 gp","400 gp","450 gp","","O","X","X"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["{@spell Raise Dead|phb|Raise Dead (lvl 5)}","875 gp","1000 gp","1250 gp","","","O","X"]
+                }
+            ],
+            "name": "Shopping - Temple/Faith Supplies",
             "source": "GuildOfIcons"
         }
     ]
