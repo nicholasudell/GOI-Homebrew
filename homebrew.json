@@ -2578,6 +2578,78 @@
             ],
             "name": "Shopping - Temple/Faith Supplies",
             "source": "GuildOfIcons"
+        },
+        {
+            "caption": "Cantlore Gift Shoppe",
+            "colLabels": [
+                "Name",
+                "Cost"
+            ],
+            "colStyles": [
+                "col-10",
+                "col-2 text-center"
+            ],
+            "rows": [
+                ["{@i Clothing}",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Cantlore school of 1421 hoodie","1 gp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Cantlore school scarf","7 sp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Cantlore oversized foam gauntlet adorned with the Cantlore Glass Cannons logo","3 sp"]
+                },
+                ["{@i Trinkets}",""],
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Flagon adorned with a fake eye","5 sp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (School of Fighting)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (College of Rage)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (Circle of Fists)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (School of Bows)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (School of Not Being As Smart As A Cleric)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (School of Engineering)","3 cp"]
+                },
+                {
+                    "type": "row",
+                    "style":"row-indent-first",
+                    "row": ["Joke diploma (Dead Parents Society)","3 cp"]
+                }
+            ],
+            "name": "Shopping - Cantlore Gift Shoppe",
+            "source": "GuildOfIcons"
         }
     ],
     "variant": 
