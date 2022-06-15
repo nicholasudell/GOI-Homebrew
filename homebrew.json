@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.7",
+                "version": "1.0.8",
                 "authors": [
                     "Nick"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1654200317
+        "dateLastModified": 1655321313
     },
     "spell": [
 		{
@@ -2578,6 +2578,34 @@
             ],
             "name": "Shopping - Temple/Faith Supplies",
             "source": "GuildOfIcons"
+        }
+    ],
+    "variant": 
+    [
+        {
+            "name": "Biting Blade",
+            "type": "GV",
+            "requires": 
+            [
+				{
+					"type": "M"
+				}
+			],
+            "inherits": 
+            {
+                "namePrefix": "Biting ",
+                "source": "GuildOfIcons",
+                "page": 69,
+                "srd": false,
+                "tier": "major",
+                "rarity": "rare",
+                "reqAttune": true,
+                "entries": 
+                [
+                    "Once per turn when you deal slashing damage with this weapon, the target must make a DC 13 Constitution saving throw or start bleeding for 1 minute. While bleeding, the target takes {@dice 1d8} slashing damage at the start of each of its turns.",
+                    "A bleeding creature may repeat the saving throw at the end of each of its turns, ending the effect on a success. The effect is ended if the creature regains at least 5 hit points in one turn."
+                ]
+            }
         }
     ]
 }
