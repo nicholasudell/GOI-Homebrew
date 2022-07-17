@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1658085855
+        "dateLastModified": 1658086168
     },
     "spell": [
 		{
@@ -2902,9 +2902,9 @@
                     ]
                 },
                 {
-                    "name": "Signature Move",
+                    "name": "Signature Move: Cacophony (Recharge 4-6)",
                     "entries": [
-                        "Cacophony (Recharge 4-6). Each creature in a 15-foot cube originating from the Brass Cannon must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) thunder damage and is pushed up to 15 feet away from the Brass Cannon. On a successful save, a creature takes half as much damage and isn't pushed."
+                        "Each creature in a 15-foot cube originating from the Brass Cannon must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) thunder damage and is pushed up to 15 feet away from the Brass Cannon. On a successful save, a creature takes half as much damage and isn't pushed."
                     ]
                 }
             ],
@@ -3046,9 +3046,9 @@
                     ]
                 },
                 {
-                    "name": "Signature Move",
+                    "name": "Signature Move: Countercharm (Recharge 4-6)",
                     "entries": [
-                        "Countercharm (Recharge 4-6). The Brass Cannon uses musical notes or words of power to disrupt mind-influencing effects. As an action, he can start a performance that lasts until the end of his next turn. During that time, he and any friendly creatures within 30 feet of him have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear the Brass Cannon to gain this benefit. The performance ends early if he is {@condition incapacitated} or silenced or if he voluntarily ends it (no action required)."
+                        "The Brass Cannon uses musical notes or words of power to disrupt mind-influencing effects. As an action, he can start a performance that lasts until the end of his next turn. During that time, he and any friendly creatures within 30 feet of him have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear the Brass Cannon to gain this benefit. The performance ends early if he is {@condition incapacitated} or silenced or if he voluntarily ends it (no action required)."
                     ]
                 }
             ],
@@ -3188,9 +3188,9 @@
                     ]
                 },
                 {
-                    "name": "Signature Move",
+                    "name": "Signature Move: Stratocaster (Recharge 5-6)",
                     "entries": [
-                        "Stratosphere Caster (Recharge 5-6). The Brass Cannon teleports himself and up to one willing creature to an unoccupied space he can see within range. Immediately after he disappears, a thunderous boom sounds, and each creature within 10 feet of the space he left must make a {@dc 16} Constitution saving throw, taking 16 ({@damage 3d10}) thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.",
+                        "The Brass Cannon teleports himself and up to one willing creature to an unoccupied space he can see within range. Immediately after he disappears, a thunderous boom sounds, and each creature within 10 feet of the space he left must make a {@dc 16} Constitution saving throw, taking 16 ({@damage 3d10}) thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.",
                         "When the Brass Cannon teleports with a willing creature, the creature must be within 5 feet of him when he casts this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
                     ]
                 }
@@ -3334,9 +3334,9 @@
                     ]
                 },
                 {
-                    "name": "Signature Move",
+                    "name": "Signature Move: 4'33 (Recharge 4-6)",
                     "entries": [
-                        "4'33 (Recharge 4-6). The Brass Cannon emits the opposite of noise. All creatures within 20 ft. of the Brass Cannon are Silenced as if with the {@spell Silence} spell until the end of the Brass Cannon's next turn."
+                        "The Brass Cannon emits the opposite of noise. All creatures within 20 ft. of the Brass Cannon are Silenced as if with the {@spell Silence} spell until the end of the Brass Cannon's next turn."
                     ]
                 }
             ],
@@ -3484,9 +3484,9 @@
                     ]
                 },
                 {
-                    "name": "Signature Move",
+                    "name": "Signature Move: Conduction (Recharge 4-6)",
                     "entries": [
-                        "Conduction (Recharge 4-6). The Brass Cannon creates a dancing musical note that hovers around a target creature's head. Immediately after the creature rolls their next attack roll against a target, the mote shatters in crackling thunder and lightning. The target of the original attack and each creature of the Brass Cannon's choice that the Brass Cannon can see within 5 feet of it must succeed on a 16 Constitution saving throw or 4 ({@dice 1d8}) thunder and 4 ({@damage 1d8}) lightning damage."
+                        "The Brass Cannon creates a dancing musical note that hovers around a target creature's head. Immediately after the creature rolls their next attack roll against a target, the mote shatters in crackling thunder and lightning. The target of the original attack and each creature of the Brass Cannon's choice that the Brass Cannon can see within 5 feet of it must succeed on a 16 Constitution saving throw or 4 ({@dice 1d8}) thunder and 4 ({@damage 1d8}) lightning damage."
                     ]
                 }
             ],
