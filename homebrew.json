@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1656769430
+        "dateLastModified": 1658085855
     },
     "spell": [
 		{
@@ -2778,5 +2778,738 @@
                 ]
             }
         }
+    ],
+    "monster": [
+        {
+            "name": "Bucket, Brass Cannon",
+            "source": "GuildOfIcons",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 102,
+                "formula": "12d8 + 48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 14,
+            "cha": 20,
+            "save": {
+                "con": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "intimidation": "+8",
+                "performance": "+11",
+                "persuasion": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "poison",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Message"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell Healing Word}",
+                            "{@spell Heroism}"
+                        ]
+                    },
+                    "spells": {
+                        "2": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell Aid}",
+                                "{@spell Blindness/Deafness}",
+                                "{@spell Invisibility}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Enemies Abound|XGE}",
+                                "{@spell Slow}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Greater Invisibility}",
+                                "{@spell Polymorph}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Cure Wounds}",
+                                "{@spell Skill Empowerment|XGE}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell True Seeing}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Brass Cannon",
+                    "entries": [
+                        "The Brass Cannon is immune to the Poisoned condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderclap",
+                    "entries": [
+                        "The Brass Cannon creates a burst of thunderous sound that can be heard up to 100 feet away. Each creature within 5 ft. of the Brass Cannon, other than himself, must make a {@dc 16} Constitution saving throw or take 7 ({@damage 2d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Signature Move",
+                    "entries": [
+                        "Cacophony (Recharge 4-6). Each creature in a 15-foot cube originating from the Brass Cannon must make a {@dc 16} Constitution saving throw. On a failed save, a creature takes 18 ({@damage 4d8}) thunder damage and is pushed up to 15 feet away from the Brass Cannon. On a successful save, a creature takes half as much damage and isn't pushed."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "T"
+            ],
+            "miscTags": [
+                "AOE"
+            ],
+            "conditionInflictSpell": [
+                "blinded",
+                "deafened",
+                "invisible"
+            ]
+        },
+        {
+            "name": "Steve, Brass Cannon",
+            "source": "GuildOfIcons",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 102,
+                "formula": "12d8 + 48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 14,
+            "cha": 20,
+            "save": {
+                "con": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "intimidation": "+8",
+                "performance": "+11",
+                "persuasion": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "poison",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Prestidigitation"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell Healing Word}",
+                            "{@spell Sleep}"
+                        ]
+                    },
+                    "spells": {
+                        "2": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell Aid}",
+                                "{@spell Hold Person}",
+                                "{@spell Lesser Restoration}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Dispel Magic}",
+                                "{@spell Slow}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Greater Invisibility}",
+                                "{@spell Compulsion}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Cure Wounds}",
+                                "{@spell Dominate Person}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Suggestion}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Brass Cannon",
+                    "entries": [
+                        "The Brass Cannon is immune to the Poisoned condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderclap",
+                    "entries": [
+                        "The Brass Cannon creates a burst of thunderous sound that can be heard up to 100 feet away. Each creature within 5 ft. of the Brass Cannon, other than himself, must make a {@dc 16} Constitution saving throw or take 7 ({@damage 2d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Signature Move",
+                    "entries": [
+                        "Countercharm (Recharge 4-6). The Brass Cannon uses musical notes or words of power to disrupt mind-influencing effects. As an action, he can start a performance that lasts until the end of his next turn. During that time, he and any friendly creatures within 30 feet of him have advantage on saving throws against being {@condition frightened} or {@condition charmed}. A creature must be able to hear the Brass Cannon to gain this benefit. The performance ends early if he is {@condition incapacitated} or silenced or if he voluntarily ends it (no action required)."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "T"
+            ],
+            "conditionInflictSpell": [
+                "charmed",
+                "invisible",
+                "paralyzed",
+                "unconscious"
+            ]
+        },
+        {
+            "name": "Toady, Brass Cannon",
+            "source": "GuildOfIcons",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 102,
+                "formula": "12d8 + 48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 14,
+            "cha": 20,
+            "save": {
+                "con": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "intimidation": "+8",
+                "performance": "+11",
+                "persuasion": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "poison",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Dancing Lights"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell Healing Word}",
+                            "{@spell Command}"
+                        ]
+                    },
+                    "spells": {
+                        "2": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell Aid}",
+                                "{@spell Shatter}",
+                                "{@spell Pyrotechnics|XGE}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Hypnotic Pattern}",
+                                "{@spell Slow}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Greater Invisibility}",
+                                "{@spell Thunder Wall|GuildOfIcons}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Cure Wounds}",
+                                "{@spell Synaptic Static|XGE}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Otto's Irresistible Dance}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Brass Cannon",
+                    "entries": [
+                        "The Brass Cannon is immune to the Poisoned condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderclap",
+                    "entries": [
+                        "The Brass Cannon creates a burst of thunderous sound that can be heard up to 100 feet away. Each creature within 5 ft. of the Brass Cannon, other than himself, must make a {@dc 16} Constitution saving throw or take 7 ({@damage 2d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Signature Move",
+                    "entries": [
+                        "Stratosphere Caster (Recharge 5-6). The Brass Cannon teleports himself and up to one willing creature to an unoccupied space he can see within range. Immediately after he disappears, a thunderous boom sounds, and each creature within 10 feet of the space he left must make a {@dc 16} Constitution saving throw, taking 16 ({@damage 3d10}) thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.",
+                        "When the Brass Cannon teleports with a willing creature, the creature must be within 5 feet of him when he casts this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "T"
+            ],
+            "damageTagsSpell": [
+                "T",
+                "Y"
+            ],
+            "miscTags": [
+                "AOE"
+            ],
+            "conditionInflictSpell": [
+                "blinded",
+                "charmed",
+                "incapacitated",
+                "invisible",
+                "prone"
+            ]
+        },
+        {
+            "name": "Tremble, Brass Cannon",
+            "source": "GuildOfIcons",
+            "page": 0,
+            "size": [
+                "S"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "gnome"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 90,
+                "formula": "12d6 + 48"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 15,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 14,
+            "cha": 20,
+            "save": {
+                "con": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "intimidation": "+8",
+                "performance": "+11",
+                "persuasion": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "poison",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Blade Ward"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell Healing Word}"
+                        ],
+                        "3": [
+                            "{@spell Elemental Weapon}"
+                        ]
+                    },
+                    "spells": {
+                        "2": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell Aid}",
+                                "{@spell Enlarge/Reduce}",
+                                "{@spell Heat Metal}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Greater Invisibility}",
+                                "{@spell Raulothim's Psychic Lance|UA2021DraconicOptions}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Cure Wounds}",
+                                "{@spell Raise Dead}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Eyebite}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Brass Cannon",
+                    "entries": [
+                        "The Brass Cannon is immune to the Poisoned condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderclap",
+                    "entries": [
+                        "The Brass Cannon creates a burst of thunderous sound that can be heard up to 100 feet away. Each creature within 5 ft. of the Brass Cannon, other than himself, must make a {@dc 16} Constitution saving throw or take 7 ({@damage 2d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Signature Move",
+                    "entries": [
+                        "4'33 (Recharge 4-6). The Brass Cannon emits the opposite of noise. All creatures within 20 ft. of the Brass Cannon are Silenced as if with the {@spell Silence} spell until the end of the Brass Cannon's next turn."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "T"
+            ],
+            "damageTagsSpell": [
+                "A",
+                "C",
+                "F",
+                "L",
+                "T",
+                "Y"
+            ],
+            "conditionInflictSpell": [
+                "frightened",
+                "incapacitated",
+                "invisible",
+                "unconscious"
+            ]
+        },
+        {
+            "name": "Pisshead, Brass Cannon",
+            "source": "GuildOfIcons",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "type": {
+                "type": "humanoid",
+                "tags": [
+                    "human"
+                ]
+            },
+            "alignment": [
+                "C",
+                "N"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 102,
+                "formula": "12d8 + 48"
+            },
+            "speed": {
+                "walk": 30
+            },
+            "str": 15,
+            "dex": 16,
+            "con": 18,
+            "int": 9,
+            "wis": 14,
+            "cha": 20,
+            "save": {
+                "con": "+7",
+                "cha": "+8"
+            },
+            "skill": {
+                "intimidation": "+8",
+                "performance": "+11",
+                "persuasion": "+8"
+            },
+            "passive": 12,
+            "resist": [
+                "poison",
+                "thunder"
+            ],
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "languages": [
+                "any one language (usually Common)"
+            ],
+            "cr": "8",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+                    "headerEntries": [
+                        "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Minor Illusion"
+                    ],
+                    "daily": {
+                        "1": [
+                            "{@spell Healing Word}",
+                            "{@spell Color Spray}"
+                        ]
+                    },
+                    "spells": {
+                        "2": {
+                            "slots": 2,
+                            "spells": [
+                                "{@spell Aid}",
+                                "{@spell Cloud of Daggers}",
+                                "{@spell Nathair's Mischief|UA2021DraconicOptions}"
+                            ]
+                        },
+                        "3": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Stinking Cloud}",
+                                "{@spell Slow}"
+                            ]
+                        },
+                        "4": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Greater Invisibility}",
+                                "{@spell Summon Aberration|TCE}"
+                            ]
+                        },
+                        "5": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Mass Cure Wounds}",
+                                "{@spell Animate Objects}"
+                            ]
+                        },
+                        "6": {
+                            "slots": 1,
+                            "spells": [
+                                "{@spell Programmed Illusion}"
+                            ]
+                        }
+                    },
+                    "ability": "cha"
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Brass Cannon",
+                    "entries": [
+                        "The Brass Cannon is immune to the Poisoned condition."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Thunderclap",
+                    "entries": [
+                        "The Brass Cannon creates a burst of thunderous sound that can be heard up to 100 feet away. Each creature within 5 ft. of the Brass Cannon, other than himself, must make a {@dc 16} Constitution saving throw or take 7 ({@damage 2d6}) thunder damage."
+                    ]
+                },
+                {
+                    "name": "Signature Move",
+                    "entries": [
+                        "Conduction (Recharge 4-6). The Brass Cannon creates a dancing musical note that hovers around a target creature's head. Immediately after the creature rolls their next attack roll against a target, the mote shatters in crackling thunder and lightning. The target of the original attack and each creature of the Brass Cannon's choice that the Brass Cannon can see within 5 feet of it must succeed on a 16 Constitution saving throw or 4 ({@dice 1d8}) thunder and 4 ({@damage 1d8}) lightning damage."
+                    ]
+                }
+            ],
+            "languageTags": [
+                "C",
+                "X"
+            ],
+            "damageTags": [
+                "L",
+                "T"
+            ],
+            "damageTagsSpell": [
+                "B",
+                "P",
+                "S"
+            ],
+            "conditionInflictSpell": [
+                "blinded",
+                "charmed",
+                "incapacitated",
+                "invisible"
+            ]
+        }
+
     ]
 }
