@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1668797835
+        "dateLastModified": 1668797888
     },
     "spell": [
 		{
@@ -3239,8 +3239,8 @@
 				12
 			],
 			"hp": {
-				"average": 5,
-				"formula": "1d8 + 1"
+				"average": 13,
+				"formula": "2d8 + 2"
 			},
 			"speed": {
 				"walk": 40
