@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1658086168
+        "dateLastModified": 1668797835
     },
     "spell": [
 		{
@@ -3280,6 +3280,14 @@
 					]
 				}
 			],
+            "bonus": [
+                {
+                    "name": "Pant",
+                    "entries": [
+                        "As a bonus action, Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per long rest."
+                    ]
+                }
+            ],
 			"reaction": [
 				{
 					"name": "Protecc",
