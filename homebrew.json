@@ -14,8 +14,20 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1668799146
+        "dateLastModified": 1669222340
     },
+    "boon": [
+        {
+            "name": "Boon of Fontaine",
+            "source": "GOI",
+            "type": "Boon",
+            "entries": [
+                "If you are a devotee of Fontaine, spending at least one week performing {@variantrule Downtime Activity: Religious Service|XGE} at this holy site grants you the boon of Fontaine.",
+                "As an action, you may spend the Boon of Fontaine to manifest a 5 ft. diameter stone pillar out of any rock or stone floor. The pillar can rise up to 20 ft. high and can lift a medium creature. If the creature is unwilling, it may make a DC 12 Dexterity Saving Throw, landing harmlessly on an unoccupied square adjacent to the pillar. If the pillar would collide with the ceiling or crush an item on it against another surface, it immediately crumbles to dust and disappears.",
+                "The pillar crumbles to dust and disappears after ten minutes."
+            ]
+        }
+    ],
     "condition": [
 		{
 			"name": "Abhorrence",
