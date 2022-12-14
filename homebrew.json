@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1669222340
+        "dateLastModified": 1671057289
     },
     "boon": [
         {
@@ -2892,6 +2892,72 @@
         }
     ],
     "monster": [
+        {
+            "name": "Squirrel",
+            "source": "",
+            "page": 0,
+            "size": [
+                "T"
+            ],
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                13
+            ],
+            "hp": {
+                "average": 3,
+                "formula": "2d4 - 2"
+            },
+            "speed": {
+                "walk": 30,
+                "climb": 30
+            },
+            "str": 3,
+            "dex": 16,
+            "con": 8,
+            "int": 2,
+            "wis": 12,
+            "cha": 3,
+            "skill": {
+                "athletics": "-2",
+                "stealth": "+5"
+            },
+            "passive": 11,
+            "cr": "0",
+            "trait": [
+                {
+                    "name": "Keen Hearing and Smell",
+                    "entries": [
+                        "The squirrel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+                    ]
+                },
+                {
+                    "name": "Standing Leap",
+                    "entries": [
+                        "The squirrel's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+                    ]
+                }
+            ],
+            "traitTags": [
+                "Keen Senses"
+            ],
+            "damageTags": [
+                "P"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        },
         {
             "name": "Bucket, Brass Cannon",
             "source": "GuildOfIcons",
