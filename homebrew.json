@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1671057289
+        "dateLastModified": 1673997351
     },
     "boon": [
         {
@@ -1179,8 +1179,98 @@
             "ruleType":"VO",
             "type":"section",
             "entries":[
-                "Inspiration can be used to re-roll one a failed ability check, attack roll, or saving throw. It can be used after the result is declared, and even after the DM has told that you it fails.",
+                "Inspiration can be used to re-roll one failed ability check, attack roll, or saving throw. It can be used after the result is declared, and even after the DM has told that you it fails.",
                 "When you take a long rest, you lose any inspiration you had."
+            ]
+        },
+        {
+            "name":"Travel Pace",
+            "source":"GuildOfIcons",
+            "ruleType":"VO",
+            "type":"section",
+            "entries":[
+                "Each day, you have a number of travel tokens determined by your travel pace.",
+                "When you take a long rest, you lose any inspiration you had.",
+                {
+                    "type":"list",
+                    "name":"Fast Pace",
+                    "items":[
+                        "12 tokens",
+                        "Perception checks are made at disadvantage.",
+                        "Passive perception has a -5 modifier.",
+                        "Navigation checks are made at disadvantage.",
+                        "You cannot use stealth.",
+                        "You cannot forage.",
+                        "You cannot track.",
+                        "You cannot draw a map."
+                    ]
+                },
+                {
+                    "type":"list",
+                    "name":"Normal Pace",
+                    "items":[
+                        "9 tokens",
+                        "You cannot use stealth."
+                    ]
+                },
+                {
+                    "type":"list",
+                    "name":"Slow Pace",
+                    "items":[
+                        "6 tokens"
+                    ]
+                },
+                "Each hex costs a number of tokens to enter, specified by terrain type. If you do not have enough tokens to enter the hex remaining, you must stop for the night. Subtract your remaining tokens from that hex’s cost and pay the rest in the morning.",
+                {
+                    "type":"table",
+                    "caption":"Terrain",
+                    "colLabels":[
+                        "Terrain Type",
+                        "Cost"
+                    ],
+                    "colStyles":[
+                        "col-4",
+                        "col-8"
+                    ],
+                    "rows":[
+                        ["Road", "2. Negates river crossing penalty."],
+                        ["Plains", "3"],
+                        ["Hills", "4"],
+                        ["Forest/Swamp", "6"],
+                        ["Mountains", "12"],
+                        ["River Crossing", "1 plus base terrain"]
+                    ]
+                },
+                {
+                    "type":"entry",
+                    "name":"Tokens never carry over.",
+                    "entries":[
+                        "At the start of each day, travel tokens are reset based on your travel pace."
+                    ]
+                },
+                {
+                    "type":"entry",
+                    "name":"Increasing pace.",
+                    "entries":[
+                        "If you increase your pace by one stage, for example from Slow pace to Normal Pace, or from Normal Pace to Fast Pace, you gain half your remaining tokens, rounded down.",
+                        "If you increase your pace by two stages, by going from Slow Pace to Fast Pace, double your remaining tokens."
+                    ]
+                },
+                {
+                    "type":"entry",
+                    "name":"Decreasing pace.",
+                    "entries":[
+                        "If you decrease your pace by one stage by going from Fast Pace to Normal Pace or from Normal Pace to Slow Pace, subtract three tokens.",
+                        "If you decrease your pace by two stages by going from Fast Pace to Slow Pace, subtract six tokens."
+                    ]
+                },
+                {
+                    "type":"entry",
+                    "name":"Partial travel days.",
+                    "entries":[
+                        "If the party begin travelling part-way through the day, work out the fraction of time remaining in the day to travel and multiply that fraction by the tokens gained from the initial travel pace the party have chosen, rounding down. To make this simpler, portion the day into thirds."
+                    ]
+                }
             ]
         },
         {
