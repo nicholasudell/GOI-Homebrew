@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1673997351
+        "dateLastModified": 1674057506
     },
     "boon": [
         {
@@ -52,23 +52,23 @@
 					"rows": [
 						[
 							"1",
-							"The character is assailed by alien concepts and is paralyzed. The effect ends if the creature takes any damage."
+							"The character is assailed by alien concepts and is {@condition Paralyzed}. The effect ends if the creature takes any damage."
 						],
 						[
 							"2",
-							"The character becomes suddenly attached to the nearest creature. They must use their action to grapple the creature, and will not relinquish the grapple willingly until the start of their next turn."
+							"The character becomes suddenly attached to the nearest creature. They must use their action to {@action Grapple} the creature, and will not relinquish the grapple willingly until the start of their next turn."
 						],
 						[
 							"3",
-							"The character is blinded by visions of a dark majesty too beautiful to comprehend."
+							"The character is {@condition Blinded} by visions of a dark majesty too beautiful to comprehend."
 						],
 						[
 							"4",
-							"The character is deafened by a cacophony of extra-stellar winds that howl in their ears."
+							"The character is {@condition Deafened} by a cacophony of extra-stellar winds that howl in their ears."
 						],
 						[
 							"5",
-							"The character becomes Frightened by all creatures around them. They must spend their action dashing as far away from any creatures as they can."
+							"The character becomes {@condition Frightened} by all creatures around them. They must spend their action dashing as far away from any creatures as they can."
 						],
 						[
 							"6",
