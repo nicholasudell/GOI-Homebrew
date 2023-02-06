@@ -1,5 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_schema/homebrew.json",
     "_meta": {
         "sources": [
             {
@@ -14,7 +13,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1674057506
+        "dateLastModified": 1675684785
     },
     "boon": [
         {
@@ -34,7 +33,7 @@
 			"source": "GuildOfIcons",
 			"page": 0,
 			"srd": false,
-			"basicRules": false,
+			"basicRules": true,
 			"entries": [
 				"A creature with Abhorrence has been subjected to the unknowable. It could be forbidden lore from eldritch tomes, the psyche of an aberration, or visions of the far plane. An effect can give a creature one or more levels of Abhorrence.",
 				"At the start of their turn, a creature with Abhorrence must make a Wisdom saving throw, the DC is 10 plus the level of Abhorrence they have. On a success, they reduce their Abhorrence by 1. On a failure, the DM rolls a {@dice d10} or picks one effect from the table below. The effect lasts until the start of the creature's next turn.",
@@ -172,6 +171,7 @@
 			"entriesHigherLevel": [
 				{
 					"name": "At Higher Levels",
+                    "type": "entries",
 					"entries": [
 						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
 					]
@@ -207,6 +207,7 @@
 							"source": "PHB"
 						},
 						"subclass": {
+                            "shortName": "Battle Smith",
 							"name": "Battle Smith",
 							"source": "TCE"
 						}
@@ -1242,14 +1243,14 @@
                     ]
                 },
                 {
-                    "type":"entry",
+                    "type":"section",
                     "name":"Tokens never carry over.",
                     "entries":[
                         "At the start of each day, travel tokens are reset based on your travel pace."
                     ]
                 },
                 {
-                    "type":"entry",
+                    "type":"section",
                     "name":"Increasing pace.",
                     "entries":[
                         "If you increase your pace by one stage, for example from Slow pace to Normal Pace, or from Normal Pace to Fast Pace, you gain half your remaining tokens, rounded down.",
@@ -1257,7 +1258,7 @@
                     ]
                 },
                 {
-                    "type":"entry",
+                    "type":"section",
                     "name":"Decreasing pace.",
                     "entries":[
                         "If you decrease your pace by one stage by going from Fast Pace to Normal Pace or from Normal Pace to Slow Pace, subtract three tokens.",
@@ -1265,7 +1266,7 @@
                     ]
                 },
                 {
-                    "type":"entry",
+                    "type":"section",
                     "name":"Partial travel days.",
                     "entries":[
                         "If the party begin travelling part-way through the day, work out the fraction of time remaining in the day to travel and multiply that fraction by the tokens gained from the initial travel pace the party have chosen, rounding down. To make this simpler, portion the day into thirds."
@@ -2952,7 +2953,7 @@
             "source": "GuildOfIcons"
         }
     ],
-    "variant": 
+    "magicvariant": 
     [
         {
             "name": "Biting Blade",
@@ -3105,6 +3106,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "type": "spellcasting",
                     "headerEntries": [
                         "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Message"
                     ],
@@ -3249,6 +3251,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "type": "spellcasting",
                     "headerEntries": [
                         "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Prestidigitation"
                     ],
@@ -3391,6 +3394,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "type": "spellcasting",
                     "headerEntries": [
                         "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Dancing Lights"
                     ],
@@ -3634,6 +3638,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "type": "spellcasting",
                     "headerEntries": [
                         "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Blade Ward"
                     ],
@@ -3779,6 +3784,7 @@
             "spellcasting": [
                 {
                     "name": "Spellcasting",
+                    "type": "spellcasting",
                     "headerEntries": [
                         "The Brass Cannon is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 16}, {@hit 8} to hit with spell attacks). The Brass Cannon can cast the following spells: Cantrips (at will): Minor Illusion"
                     ],
