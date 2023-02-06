@@ -1,5 +1,4 @@
 {
-    "$schema": "https://raw.githubusercontent.com/5etools/5e-database/master/src/5e-SRD-Meta.schema.json",
     "_meta": {
         
         "sources": [
@@ -15,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1675685176
+        "dateLastModified": 1675685685
     },
     "boon": [
         {
@@ -2987,7 +2986,7 @@
     "monster": [
         {
             "name": "Squirrel",
-            "source": "",
+            "source": "GuildOfIcons",
             "page": 0,
             "size": [
                 "T"
