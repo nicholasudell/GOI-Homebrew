@@ -1,5 +1,7 @@
 {
+    "$schema": "https://raw.githubusercontent.com/5etools/5e-database/master/src/5e-SRD-Meta.schema.json",
     "_meta": {
+        
         "sources": [
             {
                 "abbreviation": "GOI",
@@ -13,7 +15,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1675684785
+        "dateLastModified": 1675685176
     },
     "boon": [
         {
@@ -203,14 +205,14 @@
 				"fromSubclass": [
 					{
 						"class": {
-							"name": "Artificer",
-							"source": "PHB"
-						},
-						"subclass": {
+                            "name": "Artificer",
+                            "source": "TCE"
+                        },
+                        "subclass": {
+                            "name": "Battle Smith",
                             "shortName": "Battle Smith",
-							"name": "Battle Smith",
-							"source": "TCE"
-						}
+                            "source": "TCE"
+                        }
 					}
 				]
 			}
