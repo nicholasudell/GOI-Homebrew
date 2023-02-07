@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1675685685
+        "dateLastModified": 1675794150
     },
     "boon": [
         {
@@ -3512,8 +3512,8 @@
 				12
 			],
 			"hp": {
-				"average": 13,
-				"formula": "2d8 + 2"
+				"average": 19,
+				"formula": "3d8 + 3"
 			},
 			"speed": {
 				"walk": 40
@@ -3543,13 +3543,19 @@
 					"entries": [
 						"Vintage has advantage on Wisdom (Perception) checks that rely on hearing or smell."
 					]
+				},
+                {
+					"name": "Improved Critical",
+					"entries": [
+						"Vintage's attack rolls score a critical hit on a 19 or 20 on the d20."
+					]
 				}
 			],
 			"action": [
 				{
 					"name": "Attac",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}. This attack crits on a natural 19 or natural 20."
 					]
 				}
 			],
@@ -3557,7 +3563,7 @@
                 {
                     "name": "Pant",
                     "entries": [
-                        "As a bonus action, Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per long rest."
+                        "Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per long rest."
                     ]
                 }
             ],
