@@ -6,15 +6,15 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.10",
+                "version": "1.0.11",
                 "authors": [
-                    "Nick"
+                    "Nick, Talia"
                 ],
                 "url": "https://github.com/Udellgames/GOI-Homebrew"
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1675794150
+        "dateLastModified": 1678225428
     },
     "boon": [
         {
@@ -3563,7 +3563,7 @@
                 {
                     "name": "Pant",
                     "entries": [
-                        "Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per long rest."
+                        "Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per short or long rest."
                     ]
                 }
             ],
