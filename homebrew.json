@@ -8,13 +8,13 @@
                 "full": "Guild of Icons",
                 "version": "1.0.11",
                 "authors": [
-                    "Nick, Talia"
+                    "Nick, Talia, Ben"
                 ],
                 "url": "https://github.com/Udellgames/GOI-Homebrew"
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1678225428
+        "dateLastModified": 1687534095
     },
     "boon": [
         {
@@ -2954,8 +2954,7 @@
             "source": "GuildOfIcons"
         }
     ],
-    "magicvariant": 
-    [
+    "magicvariant": [
         {
             "name": "Biting Blade",
             "type": "GV",
@@ -3588,6 +3587,157 @@
 				"prone"
 			]
 		},
+		{
+		"name": "Cedric Morrow",
+        "source": "GuildofIcons",
+		"size": [
+			"S"
+		],
+		"type": {
+			"type": "humanoid",
+			"note": "(half-elf wizard)"
+		},
+		"alignment": [
+			"L",
+			"N"
+		],
+		"ac": [
+			10,
+			{
+				"ac": 13,
+				"condition": "with {@spell mage armor}",
+				"braces": true
+			}
+		],
+		"hp": {
+			"formula": "6d8",
+			"average": 27
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 10,
+		"dex": 11,
+		"con": 10,
+		"int": 17,
+		"wis": 10,
+		"cha": 13,
+		"skill": {
+			"arcana": "+5",
+			"history": "+5",
+			"medicine": "+2",
+			"survival": "+2"
+		},
+		"passive": 10,
+		"languages": [
+			"Common",
+			"Elvish",
+			"Sylvan"
+		],
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"Cedric casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13})"
+				],
+				"will": [
+					"{@spell mage hand}",
+					"{@spell mending}",
+					"{@spell prestidigitation}"
+				],
+				"daily": {
+					"1e": [
+						"{@spell burning hands}",
+						"{@spell disguise self}",
+						"{@spell mage armor}"
+					]
+				},
+				"ability": "int",
+				"type": "spellcasting"
+			}
+		],
+		"action": [
+			{
+				"name": "Arcane Burst",
+				"entries": [
+					"{@atk ms,rs} {@hit 5} to hit, reach 5 ft. or range 120 ft., one target. {@h}7 ({@damage 1d10 + 3}) force damage."
+				]
+			}
+		],
+		"environment": [
+			"urban"
+		],
+		"soundClip": {
+			"type": "external",
+			"url": "https://5e.tools/audio/bestiary/apprentice-wizard.mp3"
+		},
+		"languageTags": [
+			"C",
+			"E",
+			"S"
+		],
+		"damageTags": [
+			"O"
+		],
+		"damageTagsSpell": [
+			"F"
+		],
+		"spellcastingTags": [
+			"O"
+		],
+		"hasFluff": true,
+		"hasFluffImages": true,
+		"tokenUrl": "https://5e.tools/img/MPMM/Apprentice Wizard.png",
+		"fluff": {
+			"name": "Apprentice Wizard",
+			"source": "MPMM",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "bestiary/MPMM/Apprentice Wizard.webp"
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Cedric is a trainee, Rincewind-like wizard. Not very good at magic. Nervous. Lawful neutral.He joins Haze for a second time after she approaches him to join them on a dragon hunting quest - he’s very nervous though and only agrees because she lets him in on some secrets and gives him a clockwork amulet."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Wizards",
+					"entries": [
+						"Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells. Apprentices are novice arcane spellcasters who serve more experienced wizards or attend school. They perform menial work like cooking or cleaning in exchange for education in the ways of magic."
+					]
+				}
+			]
+		},
+		"save": {
+			"int": "+5"
+		},
+		"cr": "1/4",
+		"trait": [
+			{
+				"name": "Darkvision",
+				"entries": [
+					"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+				]
+			},
+			{
+				"name": "Fey Ancestry",
+				"entries": [
+					"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+				]
+			}
+		],
+		"traitTags": [
+			"Fey Ancestry"
+		]
+		},		
         {
             "name": "Tremble, Brass Cannon",
             "source": "GuildOfIcons",
