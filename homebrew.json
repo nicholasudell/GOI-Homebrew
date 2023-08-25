@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.12",
+                "version": "1.0.13",
                 "authors": [
                     "Nick, Talia, Ben"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1692994177
+        "dateLastModified": 1692994178
     },
     "boon": [
         {
@@ -3554,7 +3554,7 @@
 				{
 					"name": "Attac",
 					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}. This attack crits on a natural 19 or natural 20."
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. This attack crits on a natural 19 or natural 20."
 					]
 				}
 			],
