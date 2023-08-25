@@ -6,7 +6,7 @@
                 "abbreviation": "GOI",
                 "json": "GuildOfIcons",
                 "full": "Guild of Icons",
-                "version": "1.0.11",
+                "version": "1.0.12",
                 "authors": [
                     "Nick, Talia, Ben"
                 ],
@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1686750064
+        "dateLastModified": 1692994177
     },
     "boon": [
         {
@@ -3511,13 +3511,13 @@
 				12
 			],
 			"hp": {
-				"average": 19,
-				"formula": "3d8 + 3"
+				"average": 27,
+				"formula": "4d8 + 3"
 			},
 			"speed": {
 				"walk": 40
 			},
-			"str": 13,
+			"str": 15,
 			"dex": 14,
 			"con": 12,
 			"int": 3,
@@ -3562,7 +3562,7 @@
                 {
                     "name": "Pant",
                     "entries": [
-                        "Vintage can use a Second Wind to regain {@dice 1d10 + 2} hit points. Only one Second Wind can be used per short or long rest."
+                        "Vintage can use a Second Wind to regain {@dice 1d10 + 4} hit points. Only one Second Wind can be used per short or long rest."
                     ]
                 }
             ],
