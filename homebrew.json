@@ -14,7 +14,7 @@
             }
         ],
         "dateAdded": 1537874753,
-        "dateLastModified": 1692994178
+        "dateLastModified": 1700669331
     },
     "boon": [
         {
@@ -593,7 +593,6 @@
             "tier": "major",
             "weight": 20,
             "ac": 14,
-            "armor": true,
             "stealth": true,
             "attachedSpells": [
                 "greater restoration"
@@ -737,7 +736,6 @@
             ],
             "dmg1": "1d10",
             "dmgType": "S",
-            "weapon": true,
             "rarity": "very rare",
             "reqAttune": "by a warlock or fighter",
             "reqAttuneTags": [
@@ -809,7 +807,6 @@
             "weaponCategory": "martial",
             "dmg1": "1d8",
             "dmgType": "S",
-            "weapon": true,
             "rarity": "very rare",
             "reqAttune": "by a Bard or Ranger",
             "reqAttuneTags": [
@@ -1050,7 +1047,6 @@
             "range": "30/120",
             "dmg1": "2d6",
             "dmgType": "R",
-            "weapon": true,
             "firearm": true,
             "rarity": "rare",
             "tier": "minor",
@@ -1086,7 +1082,6 @@
             "range": "60/300",
             "dmg1": "4d8",
             "dmgType": "R",
-            "weapon": true,
             "firearm": true,
             "rarity": "rare",
             "tier": "minor",
